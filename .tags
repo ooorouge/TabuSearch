@@ -1,0 +1,21 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+FindMove	.\main.cpp	/^void FindMove(int (*table)[k_num], int *color, int (*Ttable)[k_num])$/;"	f
+InitPara	.\main.cpp	/^void InitPara(int *pint, int (*rmap)[point_num], int *list, int (*Ttable)[k_num])$/;"	f
+MakeMove	.\main.cpp	/^void MakeMove()$/;"	f
+Ttable	.\para.cpp	/^int Ttable[point_num][k_num] = { 0 };$/;"	v
+_point	.\para.h	/^extern struct _point$/;"	s
+calF	.\main.cpp	/^int calF(int *pint, int (*rmap)[point_num], int *list)$/;"	f
+init	.\para.cpp	/^void init(int *pint, int (*rmap)[point_num])$/;"	f
+initM	.\para.cpp	/^void initM(int rmap[][point_num])$/;"	f
+iter	.\para.cpp	/^int iter = 0;$/;"	v
+iter	.\para.h	/^extern int iter = 0;$/;"	v
+k_num	.\para.h	1;"	d
+main	.\main.cpp	/^int main()$/;"	f
+point_num	.\para.h	2;"	d
+reTable	.\main.cpp	/^void reTable(int (*table)[k_num], int *pint, int (*rmap)[point_num])$/;"	f
+whatcolor	.\main.cpp	/^int whatcolor(int j,int *p)$/;"	f
